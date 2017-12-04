@@ -1,0 +1,5 @@
+/Users/jakobt2/Desktop/lol/HelloWorld/HelloWorld/bin/Debug/HelloWorld.exe
+/Users/jakobt2/Desktop/lol/HelloWorld/HelloWorld/bin/Debug/HelloWorld.pdb
+/Users/jakobt2/Desktop/lol/HelloWorld/HelloWorld/obj/x86/Debug/HelloWorld.csproj.CoreCompileInputs.cache
+/Users/jakobt2/Desktop/lol/HelloWorld/HelloWorld/obj/x86/Debug/HelloWorld.exe
+/Users/jakobt2/Desktop/lol/HelloWorld/HelloWorld/obj/x86/Debug/HelloWorld.pdb
