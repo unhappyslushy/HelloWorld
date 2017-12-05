@@ -4,7 +4,10 @@ namespace HelloWorld
 {
     class MainClass
     {
-        public static void Main(string[] args)
+        public static void Main(string[] args) {
+            start();
+        }
+        public static void start()
         {
             Console.WriteLine("Write 2 Number lol.");
             float number1 = float.Parse(Console.ReadLine());
@@ -84,7 +87,7 @@ namespace HelloWorld
                     break;
 
             }
-             
+            start(); 
 		}
     }
 }
