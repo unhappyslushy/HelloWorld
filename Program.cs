@@ -10,7 +10,7 @@ namespace HelloWorld
             float number1 = float.Parse(Console.ReadLine());
             float number2 = float.Parse(Console.ReadLine());
 
-            Console.WriteLine("Select an option\n1.-Add\n2.-Subtract\n3.-Multiply\n4.-Divide");
+            Console.WriteLine("Select an option\n1.-Add\n2.-Subtract\n3.-Multiply\n4.-Divide\n5.See Ya");
 
             int option = int.Parse(Console.ReadLine());
 
@@ -40,20 +40,28 @@ namespace HelloWorld
         {
             if (option == 1)
             {
-                Console.WriteLine("Result of addicion: " + AddTwoNumbers(n1,n2));
+                Console.WriteLine("Result of addicion: " + AddTwoNumbers(n1, n2));
             }
-			else if (option == 2)
-			{
+            else if (option == 2)
+            {
                 Console.WriteLine("Result of subtraction: " + SubTwoNumbers(n1, n2));
-			}
-			else if (option == 3)
-			{
-				Console.WriteLine("Result of multiplication: " + MulTwoNumbers(n1, n2));
-			}
-			else if (option == 4)
-			{
-				Console.WriteLine("Result of division: " + DivTwoNumbers(n1, n2));
-			}
+            }
+            else if (option == 3)
+            {
+                Console.WriteLine("Result of multiplication: " + MulTwoNumbers(n1, n2));
+            }
+            else if (option == 4)
+            {
+                Console.WriteLine("Result of division: " + DivTwoNumbers(n1, n2));
+            }
+            else if (option == 5)
+            {
+                Console.WriteLine("See YA MANNNN!");
+                return;
+            }
+            else {
+                Console.WriteLine("This Is Wong");
+            }
 		}
     }
 }
