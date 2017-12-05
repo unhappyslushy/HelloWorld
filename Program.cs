@@ -10,7 +10,7 @@ namespace HelloWorld
             float number1 = float.Parse(Console.ReadLine());
             float number2 = float.Parse(Console.ReadLine());
 
-            Console.WriteLine("Select an option\ n1.-Add\n2.-Subtract\n3.-Multiply\n4.-Divide");
+            Console.WriteLine("Select an option\n1.-Add\n2.-Subtract\n3.-Multiply\n4.-Divide");
 
             int option = int.Parse(Console.ReadLine());
 
@@ -21,6 +21,21 @@ namespace HelloWorld
             float result = n1 + n2;
             return result;
     }
+		public static float SubTwoNumbers(float n1, float n2)
+		{
+			float result = n1 - n2;
+			return result;
+		}
+		public static float DivTwoNumbers(float n1, float n2)
+		{
+			float result = n1 / n2;
+			return result;
+		}
+		public static float MulTwoNumbers(float n1, float n2)
+		{
+			float result = n1 * n2;
+			return result;
+		}
         public static void EvaluateOption(int option, float n1, float n2)
         {
             if (option == 1)
@@ -29,15 +44,15 @@ namespace HelloWorld
             }
 			else if (option == 2)
 			{
-				Console.WriteLine("Result of subtraction: " + AddTwoNumbers(n1, n2));
+                Console.WriteLine("Result of subtraction: " + SubTwoNumbers(n1, n2));
 			}
 			else if (option == 3)
 			{
-				Console.WriteLine("Result of multiplying: " + AddTwoNumbers(n1, n2));
+				Console.WriteLine("Result of multiplication: " + MulTwoNumbers(n1, n2));
 			}
 			else if (option == 4)
 			{
-				Console.WriteLine("Result of division: " + AddTwoNumbers(n1, n2));
+				Console.WriteLine("Result of division: " + DivTwoNumbers(n1, n2));
 			}
 		}
     }
